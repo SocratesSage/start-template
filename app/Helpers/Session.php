@@ -22,7 +22,7 @@ class Session
      * @param  string $name
      * @return bool
      */
-    public static function exists($name) : bool
+    public static function exists($name)
     {
         return array_key_exists($name, $_SESSION);
     }

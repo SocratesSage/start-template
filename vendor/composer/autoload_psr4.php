@@ -6,9 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Zend\\Diactoros\\' => array($vendorDir . '/zendframework/zend-diactoros/src'),
-    'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
-    'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
-    'Aura\\Router\\' => array($vendorDir . '/aura/router/src'),
+    'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
+    'PhpOption\\' => array($vendorDir . '/phpoption/phpoption/src/PhpOption'),
+    'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),
     'App\\' => array($baseDir . '/app'),
 );
